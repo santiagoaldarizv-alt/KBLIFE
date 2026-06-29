@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Icon Generator for KBLife</title>
+</head>
+<body>
+    <h1>Icon Generator</h1>
+    <p>Open browser console and run the functions below to generate icons.</p>
+    
+    <script>
+        function generateIcon(size) {
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+            
+            // Background
+            ctx.fillStyle = '#0a0a0a';
+            ctx.fillRect(0, 0, size, size);
+            
+            // Text
+            ctx.fillStyle = '#e85d04';
+            ctx.font = `bold ${size * 0.4}px Arial, sans-serif`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText('KB', size / 2, size / 2);
+            
+            // Download
+            const link = document.createElement('a');
+            link.href = canvas.toDataURL('image/png');
+            link.download = `icon-${size}.png`;
+            link.click();
+        }
+        
+        console.log('Run these commands:');
+        console.log('generateIcon(192) — for icon-192.png');
+        console.log('generateIcon(512) — for icon-512.png');
+    </script>
+</body>
+</html>
