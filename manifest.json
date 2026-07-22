@@ -1,15 +1,27 @@
 {
-  "name": "KBLife",
+  "name": "KBLife RPG",
   "short_name": "KBLife",
-  "description": "Tu sistema de vida — entreno, dieta, calendario y progreso",
-  "start_url": "/",
-  "scope": "/",
+  "description": "Tu app RPG de vida — hábitos, entreno y progreso diario",
+  "start_url": "/kblife/",
+  "scope": "/kblife/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0a0a0a",
-  "theme_color": "#0a0a0a",
+  "background_color": "#080810",
+  "theme_color": "#080810",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ]
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "lang": "es"
 }
