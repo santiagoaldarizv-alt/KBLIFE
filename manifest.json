@@ -1,22 +1,22 @@
 {
   "name": "KBLife RPG",
   "short_name": "KBLife",
-  "description": "Tu app RPG de vida \u2014 h\u00e1bitos, entreno y progreso diario",
-  "start_url": "/",
-  "scope": "/",
+  "description": "Tu app RPG de vida",
+  "start_url": "/KBLIFE/",
+  "scope": "/KBLIFE/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#080810",
   "theme_color": "#080810",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/KBLIFE/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-512.png",
+      "src": "/KBLIFE/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
