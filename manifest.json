@@ -1,9 +1,9 @@
 {
   "name": "KBLife RPG",
   "short_name": "KBLife",
-  "description": "Tu app RPG de vida — hábitos, entreno y progreso diario",
-  "start_url": "/kblife/",
-  "scope": "/kblife/",
+  "description": "Tu app RPG de vida \u2014 h\u00e1bitos, entreno y progreso diario",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#080810",
@@ -21,7 +21,5 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
-  ],
-  "categories": ["health", "fitness", "lifestyle"],
-  "lang": "es"
+  ]
 }
